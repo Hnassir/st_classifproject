@@ -12,8 +12,6 @@ import matplotlib.pyplot as plt
 
 def app () :
 
-    df=pd.read_csv("../diabetes.csv")
-
     st.title('✅Classification')
 
 
