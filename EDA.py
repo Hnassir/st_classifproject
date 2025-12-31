@@ -22,7 +22,7 @@ def app():
         st.write('uploaded')
         st.text('##############################################')
 
-        data=pd.read_csv(data_path)
+        data=pd.read_csv(data_path,index_col=0)
 
         # defining key of dict of session
         st.session_state['data_path']=data
